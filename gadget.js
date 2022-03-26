@@ -82,9 +82,9 @@ window.addEventListener("load", () => {
       }
     }
 
-    if (/\b(iPad|iPhone)\b/i.test(navigator.userAgent)) {
-        document.getElementById('ios-alert').style.display = 'block';
-    }
+    //if (/\b(iPad|iPhone)\b/i.test(navigator.userAgent)) {
+    //   document.getElementById('ios-alert').style.display = 'block';
+    //}
 })
 
 function setInterval(interval) {
