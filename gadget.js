@@ -29,6 +29,30 @@ const allInstructions = [
         name: "Up, Down",
         instructions: ['up', 'down']
     },
+    {
+        name: "Left, Right",
+        instructions: ['left', 'right']
+    },
+    {
+        name: "Forward, Backward",
+        instructions: ['forward', 'backward']
+    },
+    {
+        name: "Left, Right, Forward, Backward",
+        instructions: ['left', 'right', 'forward', 'backward']
+    },
+    {
+        name: "1, 2",
+        instructions: ['one', 'two']
+    },
+    {
+        name: "1, 2, 3",
+        instructions: ['one', 'two', 'three']
+    },
+    {
+        name: "0, 1, 2, 3",
+        instructions: ['zero', 'one', 'two', 'three']
+    },
 ];
 
 var instructions = [];
